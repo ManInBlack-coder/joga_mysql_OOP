@@ -7,4 +7,11 @@ const db = mysql.createConnection({
     database: 'joga_mysql'
 });
 
+db.connect(function(err) {
+    if (err) throw err;
+    console.log('tra tootab')
+})
+
 module.exports = db;
+
+

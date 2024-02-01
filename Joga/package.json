@@ -1,7 +1,6 @@
 {
   "name": "joga_mysql",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,13 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2",
-    "mysql": "github:mysqljs/mysql"
+    "mysql": "^2.18.1",
+    "node-path": "^0.0.3",
+    "path": "^0.12.7"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.11.15",
+    "tslib": "^2.6.2"
   }
 }
